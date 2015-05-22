@@ -9,7 +9,7 @@ int main()
   char field[8][128];
   
   // Opening file
-  file = fopen("../0307.TXT","r");
+  file = fopen("0307.TXT","r");
   
   i = 0;
   
