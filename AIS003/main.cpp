@@ -53,7 +53,7 @@ int main()
 	    for(ichar = 0; ichar < len; ichar++){
 	      // printing a 6bit ASCII character as binary format.
 	      for(char mask=0x20; mask != 0x00; mask >>= 1){
-		if(mask & field[5][ichar] != 0)
+		if((mask & field[5][ichar]) != 0)
 		  printf("1");
 		else
 		  printf("0");
