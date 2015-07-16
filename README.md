@@ -4,3 +4,6 @@ Here the source codes produced in the lecture. Students can download and use the
 * AIS002 includes "main.cpp" which shows a way to extract AIVDM sentences.
 * AIS003 includes "main.cpp" which splits the AIVDM sentence into fields and removes the armoring of the 6th field. "main_rev.cpp" is the refactored version.
 * AIS004 includes "main.cpp" which only prints decoded AIVDM type1.
+* AIS005 sorts type 1 messages by MMSI
+* AIS006 saves type 1 messages to files, and only the messages of the same ship are in a file.
+* AIS007 is refactored version of AIS006
